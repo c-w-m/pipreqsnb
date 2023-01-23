@@ -5,7 +5,7 @@
 #
 # no tests implemented with this project, verified with simple passthrough cmd
 #
-# > python39 -v venv .env39
+# > python39 -m venv .env39
 # > .\.env39\Scripts\activate.bat
 # (env39)> python -m pip install --upgrade pip
 # (env39)> pip install -e .
