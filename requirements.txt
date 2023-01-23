@@ -1,1 +1,17 @@
-pipreqs==0.4.10
+# =============================================================================
+# fork (pipreqs==0.4.10) to fix SSLError
+# pipreqsnb setyp.py now requires
+#   install_requires=['pipreqs @ git+https://github.com/c-w-m/pipreqs.git'],
+#
+# no tests implemented with this project, verified with simple passthrough cmd
+#
+# > python39 -v venv .env39
+# > .\.env39\Scripts\activate.bat
+# (env39)> python -m pip install --upgrade pip
+# (env39)> pip install -e .
+# extend code to pass `--verify` arg
+#
+# 
+# =============================================================================
+
+-e https://github.com/c-w-m/pipreqs.git  # fork with CA_BUNDLE fix for SSLError
