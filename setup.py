@@ -16,5 +16,5 @@ setuptools.setup(
     license='MIT License',
     license_files=("LICENSE.txt",),
     packages=setuptools.find_packages(),
-    install_requires=['pipreqs @ git+https://github.com/c-w-m/pipreqs.git'],
+    install_requires=['pipreqs @ git+https://github.com/c-w-m/pipreqs.git@master#egg=pipreqs'],
     zip_safe=False)
