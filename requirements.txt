@@ -1,7 +1,7 @@
 # =============================================================================
 # fork (pipreqs==0.4.10) to fix SSLError
 # pipreqsnb setyp.py now requires
-#   install_requires=['pipreqs @ git+https://github.com/c-w-m/pipreqs.git'],
+#   install_requires=['pipreqs @ git+https://github.com/c-w-m/pipreqs.git@master#egg=pipreqs'],
 #
 # no tests implemented with this project, verified with simple passthrough cmd
 #
